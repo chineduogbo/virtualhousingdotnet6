@@ -18,10 +18,29 @@ namespace Virtual_Housing.Controllers
             model.Listings = await _listingService.ViewListings();
             return View(model);
         }
+        [HttpGet]
         public IActionResult CreateListing()
         {
-            ListingViewModel model = new();
+            ListingViewModel model = new()
+            {
+                DropDown = new(),
+                createListingDto = new()
+            };
             return View(model);
+        }
+        [HttpPost]
+        public IActionResult CreateListing(ListingViewModel model)
+        {
+            var createlist = _listingService.CreateListing(model.createListingDto);
+            if (createlist?.Id > 0)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                model.Successful = false;
+                return View(model);
+            }
         }
     }
 }

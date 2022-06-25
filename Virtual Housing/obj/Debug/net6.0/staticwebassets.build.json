@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T2BnG9Mss6rOuZG1IKiTWE+LM2lppZYbJmMkdwlva/w=",
+  "Hash": "2YPlFnKNNOWC3CcwjK1Ta4sEylsAxaXIu45gaQn0KQA=",
   "Source": "Virtual Housing",
   "BasePath": "_content/Virtual Housing",
   "Mode": "Default",
@@ -899,6 +899,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Work Personal\\Virtual Housing\\Virtual Housing\\wwwroot\\Gif\\buildings.gif",
+      "SourceId": "Virtual Housing",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work Personal\\Virtual Housing\\Virtual Housing\\wwwroot\\",
+      "BasePath": "_content/Virtual Housing",
+      "RelativePath": "Gif/buildings.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Gif\\buildings.gif"
     },
     {
       "Identity": "D:\\Work Personal\\Virtual Housing\\Virtual Housing\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
